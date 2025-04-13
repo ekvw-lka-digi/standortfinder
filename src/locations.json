@@ -1,0 +1,124 @@
+{
+  "locations": [
+    {
+      "name": "Landeskirchenamt - Gebäudeteil A",
+      "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
+      "lat": 52.0214922,
+      "lng": 8.532832,
+      "orgtype": "Landeskirchenamt",
+      "notes": "Haupthaus",
+      "searchterm": "Landeskirchenamt, LKA",
+      "link": "https://www.ekvw.de/"
+    },
+    {
+      "name": "Landeskirchenamt - Gebäudeteil B",
+      "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
+      "lat": 52.0214922,
+      "lng": 8.5328321,
+      "orgtype": "Landeskirchenamt",
+      "notes": "erreichbar über das Haupthaus (der Übergang befindet sich im 2. OG des Haupthauses)",
+      "searchterm": "Landeskirchenamt",
+      "link": "https://www.ekvw.de/"
+    },
+    {
+      "name": "Landeskirchenamt - Gebäudeteil C",
+      "address": "Niederwall 10, 33602 Bielefeld",
+      "lat": 52.0216882,
+      "lng": 8.5339246,
+      "orgtype": "Landeskirchenamt",
+      "notes": "Nachbargebäude des Haupthauses, Eingang über Renteistraße",
+      "searchterm": "Landeskirchenamt",
+      "link": "https://www.ekvw.de/"
+    },
+    {
+      "name": "Gemeinsame Rechnungsprüfungsstelle (GRPS) - Gebäude D",
+      "address": "Niederwall 10, 33602 Bielefeld",
+      "lat": 52.0216882,
+      "lng": 8.5339247,
+      "orgtype": "LK Einrichtung",
+      "notes": "Nachbargebäude des Haupthauses, Eingang über Renteistraße",
+      "searchterm": "Rechnungsprüfung, GRPS",
+      "link": "https://www.ekvw.de/"
+    },
+    {
+      "name": "Landeskirchenamt - Gebäudeteil E",
+      "address": "Renteistraße 5, 33602 Bielefeld",
+      "lat": 52.02172,
+      "lng": 8.53343,
+      "organization": "Leitungsfeld 3",
+      "notes": "Eingang über Renteistraße",
+      "searchterm": "Landeskirchenamt",
+      "link": "https://www.ekvw.de/"
+    },
+    {
+      "name": "Dienstleistungszentrum dotIT",
+      "address": "Zimmerstraße 20, 33602 Bielefeld",
+      "lat": 52.0263634,
+      "lng": 8.5321055,
+      "organization": "LKA Einrichtung",
+      "notes": "",
+      "searchterm": "EKvW, dotIT",
+      "link": "https://www.ekvw.de/"
+    },
+    {
+      "name": "Landeskirchliches Archiv",
+      "address": "Bethelplatz 2, 33617 Bielefeld",
+      "lat": 52.0093037,
+      "lng": 8.5247883,
+      "orgtype": "LKA Einrichtung",
+      "notes": "",
+      "searchterm": "EKvW, Landeskirchenamt",
+      "link": "https://www.archiv-ekvw.de/"
+    },
+    {
+      "name": "Kreiskirchenamt Bochum",
+      "address": "Westring 26a, 44787 Bochum",
+      "lat": 51.4824246,
+      "lng": 7.21291,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "",
+      "searchterm": "KKA Bochum",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/bochum/"
+    },
+    {
+      "name": "Kreiskirchenamt Herford",
+      "address": "Hansastraße 60, 32049 Herford",
+      "lat": 52.12232,
+      "lng": 8.67111,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "",
+      "searchterm": "KKA Herford",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/herford/"
+    },
+    {
+      "name": "Verband der Evangelischen Kirchenkreise Bielefeld, Gütersloh, Halle und Paderborn",
+      "address": "Moltkestr. 12, 33330 Gütersloh",
+      "lat": 52.20474,
+      "lng": 8.56357,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "",
+      "searchterm": "KKA Bielefeld Paderborn Halle Gütersloh",
+      "link": "https://www.verband-bghp.de/"
+    }    ,
+    {
+      "name": "Kirchenkreis Bielefeld",
+      "address": "Markgrafenstraße 7, 33602 Bielefeld",
+      "lat": 52.053039,
+      "lng": 8.480673,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Christian Bald",
+      "searchterm": "Kirchenkreis Bielefeld, Christian Bald, Superindentent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/bielefeld/"
+    } ,
+    {
+      "name": "Kirchenkreis Bochum",
+      "address": "Westring 26a, 44787 Bochum",
+      "lat": 51.482425,
+      "lng": 7.212910,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Dr. Gerald Hagmann",
+      "searchterm": "Kirchenkreis Bochum, Dr. Gerald Hagmann, Superindentent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/bochum/"
+    }
+  ]
+}
