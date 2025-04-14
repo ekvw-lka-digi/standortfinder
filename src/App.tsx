@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Search, MapPin, Building2, Link as LinkIcon, Info, FileText, X } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import { Icon, LatLng } from 'leaflet';
+import { Icon, LatLng, DivIcon } from 'leaflet';
 import locationData from './locations.json';
 import 'leaflet/dist/leaflet.css';
 
@@ -33,21 +33,30 @@ const locations: Location[] = locationData.locations;
 const defaultCenter: [number, number] = [51.8, 8.2]; // Center of NRW approximately
 const defaultZoom = 8;
 
-// Fix for default marker icon
-const defaultIcon = new Icon({
-  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-  iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
-});
+// Create custom marker icons using SVG
+const createMarkerIcon = (color: string) => {
+  return new DivIcon({
+    html: `
+      <svg width="27" height="43" viewBox="0 0 27 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.5 1C6.59644 1 1 6.59644 1 13.5C1 22.875 13.5 42 13.5 42C13.5 42 26 22.875 26 13.5C26 6.59644 20.4036 1 13.5 1ZM13.5 18C11.0147 18 9 15.9853 9 13.5C9 11.0147 11.0147 9 13.5 9C15.9853 9 18 11.0147 18 13.5C18 15.9853 15.9853 18 13.5 18Z" 
+        fill="${color}" stroke="white" stroke-width="1"/>
+      </svg>
+    `,
+    className: '',
+    iconSize: [27, 43],
+    iconAnchor: [13, 43],
+    popupAnchor: [1, -34],
+  });
+};
+
+const blueIcon = createMarkerIcon('#0b3f73');
+const redIcon = createMarkerIcon('#e50039');
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedOrgType, setSelectedOrgType] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  const [hoveredLocation, setHoveredLocation] = useState<Location | null>(null);
   const [mapCenter, setMapCenter] = useState<[number, number]>(defaultCenter);
   const [mapZoom, setMapZoom] = useState(defaultZoom);
   const selectedCardRef = useRef<HTMLDivElement>(null);
@@ -87,7 +96,7 @@ function App() {
       {/* Top Bar */}
       <div className="bg-ekvw-blue text-white py-1">
         <div className="container mx-auto px-4">
-          <div className="text-sm">Service</div>
+          <div className="text-sm">Web Services | Evangelische Kirche von Westfalen</div>
         </div>
       </div>
 
@@ -97,7 +106,6 @@ function App() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-ekvw-blue">Standortfinder</h1>
-              <p className="text-gray-600 text-sm">Evangelische Kirche von Westfalen</p>
             </div>
             <img 
               src="https://www.evangelisch-in-westfalen.de/typo3conf/ext/ekvw_template/Resources/Public/Images/logo-neu.svg" 
@@ -183,9 +191,11 @@ function App() {
                 <Marker
                   key={location.name}
                   position={[location.lat, location.lng]}
-                  icon={defaultIcon}
+                  icon={selectedLocation?.name === location.name || hoveredLocation?.name === location.name ? redIcon : blueIcon}
                   eventHandlers={{
-                    click: () => setSelectedLocation(location)
+                    click: () => setSelectedLocation(location),
+                    mouseover: () => setHoveredLocation(location),
+                    mouseout: () => setHoveredLocation(null),
                   }}
                 >
                   <Popup>
@@ -201,18 +211,20 @@ function App() {
           </div>
 
           {/* Location List */}
-          <div className="h-[600px] overflow-y-auto">
-            <div className="space-y-3 px-2">
+          <div className="h-[600px] overflow-y-auto px-2">
+            <div className="space-y-3 py-2">
               {filteredLocations.map(location => (
                 <div
                   key={location.name}
                   ref={selectedLocation?.name === location.name ? selectedCardRef : null}
-                  className={`bg-white rounded-lg shadow-sm border overflow-hidden cursor-pointer transition-all hover:border-ekvw-blue ${
+                  className={`bg-white rounded-lg shadow-sm border overflow-hidden cursor-pointer transition-all hover:border-ekvw-red ${
                     selectedLocation?.name === location.name 
-                      ? 'ring-2 ring-ekvw-blue border-ekvw-blue shadow-md transform scale-[1.02]' 
+                      ? 'ring-2 ring-ekvw-red border-ekvw-red shadow-md transform scale-[1.02]' 
                       : 'border-gray-200'
                   }`}
                   onClick={() => setSelectedLocation(location)}
+                  onMouseEnter={() => setHoveredLocation(location)}
+                  onMouseLeave={() => setHoveredLocation(null)}
                 >
                   <div className="p-3">
                     <h2 className="text-lg font-semibold mb-2 text-ekvw-blue">{location.name}</h2>

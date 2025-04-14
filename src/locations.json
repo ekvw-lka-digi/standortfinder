@@ -1,37 +1,67 @@
 {
   "locations": [
     {
-      "name": "Landeskirchenamt - Gebäudeteil A",
+      "name": "Präsidialbüro (Landeskirchenamt, Gebäude A, 1. OG)",
       "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
       "lat": 52.0214922,
       "lng": 8.532832,
       "orgtype": "Landeskirchenamt",
-      "notes": "Haupthaus",
-      "searchterm": "Landeskirchenamt, LKA",
-      "link": "https://www.ekvw.de/"
+      "notes": "Präses: Dr. Adelheid Ruck-Schröder",
+      "searchterm": "Landeskirchenamt, LKA, Präses, Präsidialbüro, Adelheid Ruck-Schröder",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/landeskirche/landeskirchenamt/dezernate-und-referate/lf-1-leitung/dez-11-praesidialbuero/"
     },
     {
-      "name": "Landeskirchenamt - Gebäudeteil B",
+      "name": "Theologischer Vizepräsident (Landeskirchenamt, Gebäude A, 1. OG)",
       "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
       "lat": 52.0214922,
-      "lng": 8.5328321,
+      "lng": 8.532832,
       "orgtype": "Landeskirchenamt",
-      "notes": "erreichbar über das Haupthaus (der Übergang befindet sich im 2. OG des Haupthauses)",
-      "searchterm": "Landeskirchenamt",
-      "link": "https://www.ekvw.de/"
+      "notes": "Theologischer Vizepräsident: Ulf Schlüter",
+      "searchterm": "Landeskirchenamt, LKA, Vizepräsident, theologischer Vizepräsident, Präsidialbüro, Ulf Schlüter",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/landeskirche/landeskirchenamt/dezernate-und-referate/lf-1-leitung/dez-12-theol-vp/"
     },
     {
-      "name": "Landeskirchenamt - Gebäudeteil C",
-      "address": "Niederwall 10, 33602 Bielefeld",
-      "lat": 52.0216882,
-      "lng": 8.5339246,
+      "name": "Juristischer Vizepräsident (Landeskirchenamt, Gebäude A, 1. OG)",
+      "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
+      "lat": 52.0214922,
+      "lng": 8.532832,
       "orgtype": "Landeskirchenamt",
-      "notes": "Nachbargebäude des Haupthauses, Eingang über Renteistraße",
-      "searchterm": "Landeskirchenamt",
-      "link": "https://www.ekvw.de/"
+      "notes": "Juristischer Vizepräsident: Dr. Arne Kupke",
+      "searchterm": "Landeskirchenamt, LKA, Vizepräsident, juristischer Vizepräsident, Präsidialbüro, Dr. Arne Kupke",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/landeskirche/landeskirchenamt/dezernate-und-referate/lf-1-leitung/dez-13-jur-vp/"
     },
     {
-      "name": "Gemeinsame Rechnungsprüfungsstelle (GRPS) - Gebäude D",
+      "name": "Stabstelle Umgang mit Verletzungen der sexuellen Selbstbestimmung (UVSS)",
+      "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
+      "lat": 52.0214922,
+      "lng": 8.532832,
+      "orgtype": "Landeskirchenamt",
+      "notes": "Leitung: Dr. Charlotte Nieße",
+      "searchterm": "Landeskirchenamt, LKA, Sexualisierte Gewalt, sexuelle Selbstbestimmung, UVSS, Dr. Charlotte Nieße",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/landeskirche/landeskirchenamt/dezernate-und-referate/lf-1-leitung/dez-16-uvss/"
+    },
+    {
+      "name": "Stabstelle Kommunikation",
+      "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
+      "lat": 52.0214922,
+      "lng": 8.532832,
+      "orgtype": "Landeskirchenamt",
+      "notes": "Leitung: Wolfram Scharenberg",
+      "searchterm": "Landeskirchenamt, LKA, Kommunikation, Wolfarm Scharenberg",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/landeskirche/landeskirchenamt/dezernate-und-referate/lf-1-leitung/dez-15-kommunikation/"
+    },
+    {
+      "name": "Stabstelle Arbeitssicherheit und Arbeitsschutz (ASAS)",
+      "address": "Altstädter Kirchplatz 5, 33602 Bielefeld",
+      "lat": 52.0214922,
+      "lng": 8.532832,
+      "orgtype": "Landeskirchenamt",
+      "notes": "Leitung: Maik Ippach",
+      "searchterm": "Landeskirchenamt, LKA, Kommunikation, Maik Ippach",
+      "link": "https://www.evangelisch-in-westfalen.de"
+    },  
+    {
+      "name": "Gemeinsame Rechnungsprüfungsstelle (GRPS)",
       "address": "Niederwall 10, 33602 Bielefeld",
       "lat": 52.0216882,
       "lng": 8.5339247,
@@ -41,14 +71,14 @@
       "link": "https://www.ekvw.de/"
     },
     {
-      "name": "Landeskirchenamt - Gebäudeteil E",
+      "name": "Gemeinsame Kirchensteuerstelle (KiSt)",
       "address": "Renteistraße 5, 33602 Bielefeld",
       "lat": 52.02172,
       "lng": 8.53343,
-      "organization": "Leitungsfeld 3",
-      "notes": "Eingang über Renteistraße",
-      "searchterm": "Landeskirchenamt",
-      "link": "https://www.ekvw.de/"
+      "organization": "gesamtkirchliche Einrichtung",
+      "notes": "Leitung: Martina Heinrich",
+      "searchterm": "EKvW, Kirchensteuer, KiSt",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/haeufige-fragen/kirchensteuer/"
     },
     {
       "name": "Dienstleistungszentrum dotIT",
@@ -61,55 +91,277 @@
       "link": "https://www.ekvw.de/"
     },
     {
+      "name": "Bibliothek der Evangelischen Kirche von Westfalen",
+      "address": "Bethelplatz 2, 33617 Bielefeld",
+      "lat": 52.0093037,
+      "lng": 8.5247883,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Ingrun Osterfinke",
+      "searchterm": "EKvW, Landeskirchliche Bibliothek, Bibliothek, Institut für Diakoniewissenschaft und Diakonimanagement, IDWM",
+      "link": "https://www.evangelisch-in-westfalen.de/service/bibliothek/#c246"
+    },
+    {
       "name": "Landeskirchliches Archiv",
       "address": "Bethelplatz 2, 33617 Bielefeld",
       "lat": 52.0093037,
       "lng": 8.5247883,
       "orgtype": "LKA Einrichtung",
-      "notes": "",
-      "searchterm": "EKvW, Landeskirchenamt",
+      "notes": "Leitung: Ingrun Osterfinke",
+      "searchterm": "EKvW, Archiv, Landeskirchliches Archiv",
       "link": "https://www.archiv-ekvw.de/"
+    },
+    {
+      "name": "Institut für Kirche und Gesellschaft (IKG)",
+      "address": "Iserlohner Str. 25, 58239 Schwerte",
+      "lat": 51.4389621,
+      "lng": 7.5945693,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Dr. Jan-Dirk Döhling; Campus Villigst",
+      "searchterm": "EKvW, IKG, Kirche, Gesellschaft, Villigst",
+      "link": "https://www.kircheundgesellschaft.de/"
+    },
+    {
+      "name": "Institut für Aus-, Fort- und Weiterbildung (IAFW)",
+      "address": "Iserlohner Str. 25, 58239 Schwerte",
+      "lat": 51.4389621,
+      "lng": 7.5945693,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Dr. Peter Böhlemann; Campus Villigst",
+      "searchterm": "EKvW, IAFW, Ausbildung, Fortbildung, Weiterbildung, Prädikanten, Pastoralkolleg, Villigst",
+      "link": "https://www.institut-afw.de/"
+    },
+    {
+      "name": "Amt für Jugendarbeit (AfJ)",
+      "address": "Iserlohner Str. 25, 58239 Schwerte",
+      "lat": 51.4389621,
+      "lng": 7.5945693,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Christian Uhlstein; Campus Villigst",
+      "searchterm": "EKvW, AfJ, Jugendarbeit, Freizeiten, Medienpädagogik, Diakonisches Jahr, Villigst",
+      "link": "https://www.ev-jugend-westfalen.de/"
+    },
+    {
+      "name": "Pädagogisches Institut (PI)",
+      "address": "Iserlohner Str. 25, 58239 Schwerte",
+      "lat": 51.4389621,
+      "lng": 7.5945693,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Thomas Schlüter; Campus Villigst",
+      "searchterm": "EKvW, PI, Pädagogik Villigst",
+      "link": "https://www.pi-villigst.de/"
+    },
+    {
+      "name": "oikos-Institut für Mission und Ökumene",
+      "address": "Olpe 35, 44135 Dortmund",
+      "lat": 51.5125258,
+      "lng": 7.4710655,
+      "orgtype": "LKA Einrichtung",
+      "notes": "",
+      "searchterm": "EKvW, oikos, OIKOS, Mission, Ökumene",
+      "link": "https://www.oikos-institut.de/"
+    },
+    {
+      "name": "Hochschule für Kirchenmusik Herford-Witten (HfK) - Standort Herford",
+      "address": "Parkstraße 6, 32049 Herford",
+      "lat": 52.111468,
+      "lng": 8.6849151,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Prof. Dr. Jochen Kaiser",
+      "searchterm": "EKvW, Kirchenmusik, Popular, Klassisch, Herford, Hochschule",
+      "link": "https://www.hochschule-kirchenmusik.de/"
+    },
+    {
+      "name": "Hochschule für Kirchenmusik Herford-Witten (HfK) - Standort Witten",
+      "address": "Ruhrstraße 48, 58452 Witten",
+      "lat": 51.4363,
+      "lng": 7.3368429,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Leitung: Prof. Dr. Jochen Kaiser",
+      "searchterm": "EKvW, Kirchenmusik, Popular, Klassisch,  Witten, Hochschule",
+      "link": "https://www.hochschule-kirchenmusik.de/"
+    },
+    {
+      "name": "Tagungsstätte Haus Villigst",
+      "address": "Iserlohner Str. 25, 58239 Schwerte",
+      "lat": 51.4389621,
+      "lng": 7.5945693,
+      "orgtype": "LKA Einrichtung",
+      "notes": "Geschäftsführerin: Anja Werth; Campus Villigst",
+      "searchterm": "EKvW, Villigst, Tagungsstätte",
+      "link": "https://www.haus-villigst.de/"
+    },
+    {
+      "name": "Tagungsstätte Haus Landeskirchlicher Dienste",
+      "address": "Olpe 35, 44135 Dortmund",
+      "lat": 51.5125258,
+      "lng": 7.4710655,
+      "orgtype": "LKA Einrichtung",
+      "notes": "",
+      "searchterm": "EKvW, HLD, Haus Landeskirchlicher Dienste, Tagungsstätte",
+      "link": "https://www.hld-dortmund.de/"
+    },
+
+    {
+      "name": "Kreiskirchenamt - Verband Bielefeld, Gütersloh, Halle und Paderborn",
+      "address": "Moltkestraße 10, 33330 Gütersloh",
+      "lat": 51.9079981,
+      "lng": 8.3781169,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Alexander Friebel (Verwaltungsleiter Standort Bielefeld), Susanne Janson (Verwaltungsleiterin Standort Gütersloh)",
+      "searchterm": "KKA, Kreiskirchenamt, Bielefeld, Gütersloh, Halle, Paderborn, Alexander Friebel, Susanne Janson",
+      "link": "https://www.verband-bghp.de/"
     },
     {
       "name": "Kreiskirchenamt Bochum",
       "address": "Westring 26a, 44787 Bochum",
-      "lat": 51.4824246,
-      "lng": 7.21291,
+      "lat": 51.482425,
+      "lng": 7.212910,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Sven Sandberg (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Bochum",
+      "link": "https://www.kirchenkreis-bochum.de/ueber-uns/verwaltung"
+    },
+    {
+      "name": "Kreiskirchenamt Dortmund",
+      "address": "Jägerstraße 5, 44145 Dortmund",
+      "lat": 51.520787,
+      "lng": 7.471385,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Lisa Prang (Verwaltungsleiterin)",
+      "searchterm": "KKA, Kreiskirchenamt, Dortmund",
+      "link": "https://www.ev-kirche-dortmund.de/ueber-uns/leitung/kreiskirchenamt"
+    },
+    {
+      "name": "Kreiskirchenamt an der Emscher - Verband Gelsenkirchen und Wattenscheid sowie Herne",
+      "address": "Am Bugapark 1c, 45899 Gelsenkirchen",
+      "lat": 51.528648,
+      "lng": 7.030061,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Carrie Bettenhausen (Verwaltungsleiterin)",
+      "searchterm": "KKA, Kreiskirchenamt, Wattenscheid, Gelsenkirchen, Emscher, Herne",
+      "link": "https://www.kk-herne.de/fileadmin/KirchenkreisHerne/Kreiskirchenamt/Verwaltung/Telefonliste_KKA_an_der_Emscher.pdf"
+    },
+    {
+      "name": "Kreiskirchenamt - Verband Gladbeck-Bottrop-Dorsten und Recklinghausen",
+      "address": "Limperstraße 150, 45657 Recklinghausen",
+      "lat": 51.616158,
+      "lng": 7.192321,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Jürgen Bahl  (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Gladbeck, Bottrop, Dorsten, Recklinghausen",
+      "link": "https://www.kreiskirchenamt-recklinghausen.de/kreiskirchenamt"
+    },
+    {
+      "name": "Kreiskirchenamt - Verband Hagen, Hattingen-Witten, Schwelm",
+      "address": "Wideystraße 26, 58452 Witten",
+      "lat": 51.441934,
+      "lng": 7.332982,
       "orgtype": "Kreiskirchenamt",
       "notes": "",
-      "searchterm": "KKA Bochum",
-      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/bochum/"
+      "searchterm": "KKA, Kreiskirchenamt, Hagen, Hattingen, Witten, Schwelm",
+      "link": "https://kreiskirchenamt.de/"
+    },
+    {
+      "name": "Kreiskirchenamt Hamm",
+      "address": "Martin-Luther-Straße 27b, 59065 Hamm",
+      "lat": 51.679547,
+      "lng": 7.815173,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Burkhard Feige (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Hamm",
+      "link": "https://www.kirchenkreis-hamm.de/arbeitsbereiche/haus-der-kirchlichen-dienste"
     },
     {
       "name": "Kreiskirchenamt Herford",
       "address": "Hansastraße 60, 32049 Herford",
-      "lat": 52.12232,
-      "lng": 8.67111,
+      "lat": 52.1223135,
+      "lng": 8.6711274,
       "orgtype": "Kreiskirchenamt",
-      "notes": "",
-      "searchterm": "KKA Herford",
-      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/herford/"
+      "notes": "Meike Elmer (Verwaltungsleiterin)",
+      "searchterm": "KKA, Kreiskirchenamt, Herford",
+      "link": "https://www.kirchenkreis-herford.de/kirchenkreis/kreiskirchenamt"
     },
     {
-      "name": "Verband der Evangelischen Kirchenkreise Bielefeld, Gütersloh, Halle und Paderborn",
-      "address": "Moltkestr. 12, 33330 Gütersloh",
-      "lat": 52.20474,
-      "lng": 8.56357,
+      "name": "Kreiskirchenamt Sauerland-Hellweg - Verband Iserlohn, Lüdenscheid-Plettenberg und Soest-Arnsberg",
+      "address": "Piepenstockstraße 21, 58636 Iserlohn",
+      "lat": 51.3788187,
+      "lng": 7.7039137,
       "orgtype": "Kreiskirchenamt",
-      "notes": "",
-      "searchterm": "KKA Bielefeld Paderborn Halle Gütersloh",
-      "link": "https://www.verband-bghp.de/"
-    }    ,
+      "notes": "Bernd Göbert (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Sauerland-Hellweg, Iserlohn, Lüdenscheid, Plettenberg, Soest, Arnsberg",
+      "link": "https://www.sauerland-hellweg.de/"
+    },
+    {
+      "name": "Kreiskirchenamt Lübbecke",
+      "address": "Geistwall 32, 32312 Lübbecke",
+      "lat": 52.3012044,
+      "lng": 8.6199176,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Carsten Schöneberg (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Lübbecke",
+      "link": "https://www.kirchenkreis-luebbecke.de/de/kreiskirchenamt/kreiskirchenamt/"
+    },
+    {
+      "name": "Kreiskirchenamt Minden",
+      "address": "Rosentalstraße 6, 32423 Minden",
+      "lat": 52.2940229,
+      "lng": 8.9168595,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Dietrich Trölenberg (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Minden",
+      "link": "https://www.kkminden.de/kirchenkreis/haus-der-kirche/"
+    },
+    {
+      "name": "Kreiskirchenamt - Verband Münster, Steinfurt-Coesfeld-Borken und Tecklenburg",
+      "address": "Von-Esmarch-Straße 7, 48149 Münster",
+      "lat": 51.9643924,
+      "lng": 7.597637,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Jutta Runden (Verwaltungsleiterin)",
+      "searchterm": "KKA, Kreiskirchenamt, Münster, Steinfurt, Coesfeld, Borken, Tecklenburg",
+      "link": "https://www.das-kreiskirchenamt.de/"
+    },
+    {
+      "name": "Kreiskirchenamt Siegen-Wittgenstein",
+      "address": "Weidenauer Straße 118, 57076 Siegen",
+      "lat": 50.9012109,
+      "lng": 8.0241942,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Oliver Berg (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Siegen, Wittgenstein",
+      "link": "https://www.kk-siwi.de/website/de/siwi/ueber-uns/kreiskirchenamt"
+    },
+    {
+      "name": "Kreiskirchenamt Unna",
+      "address": "Mozartstraße 18-20, 59423 Unna",
+      "lat": 51.5367498,
+      "lng": 7.6786005,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Thomas Sauerwein (Verwaltungsleiter)",
+      "searchterm": "KKA, Kreiskirchenamt, Unna",
+      "link": "https://www.evangelisch-in-unna.de/kirchenkreis/kreiskirchenamt/"
+    },
+    {
+      "name": "Kreiskirchenamt Vlotho",
+      "address": "Lennéstraße 3, 32545 Bad Oeynhausen",
+      "lat": 51.56970977783203,
+      "lng": 7.605844497680664,
+      "orgtype": "Kreiskirchenamt",
+      "notes": "Meike Elmer (Verwaltungsleiterin)",
+      "searchterm": "KKA, Kreiskirchenamt, Vlotho",
+      "link": "https://www.evangelisch-in-unna.de/kirchenkreis/kreiskirchenamt/"
+    },
+
     {
       "name": "Kirchenkreis Bielefeld",
       "address": "Markgrafenstraße 7, 33602 Bielefeld",
-      "lat": 52.053039,
-      "lng": 8.480673,
+      "lat": 52.026027,
+      "lng": 8.541080,
       "orgtype": "Superintendentur",
       "notes": "Superintendent Pfr. Christian Bald",
-      "searchterm": "Kirchenkreis Bielefeld, Christian Bald, Superindentent",
+      "searchterm": "Bielefeld, Christian Bald, Superintendent",
       "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/bielefeld/"
-    } ,
+    },
     {
       "name": "Kirchenkreis Bochum",
       "address": "Westring 26a, 44787 Bochum",
@@ -117,8 +369,248 @@
       "lng": 7.212910,
       "orgtype": "Superintendentur",
       "notes": "Superintendent Pfr. Dr. Gerald Hagmann",
-      "searchterm": "Kirchenkreis Bochum, Dr. Gerald Hagmann, Superindentent",
+      "searchterm": "Bochum, Gerald Hagmann, Superintendent",
       "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/bochum/"
+    },
+    {
+      "name": "Kirchenkreis Dortmund",
+      "address": "Jägerstraße 5, 44145 Dortmund",
+      "lat": 51.520787,
+      "lng": 7.471385,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr'in Heike Proske",
+      "searchterm": "Dortmund, Heike Proske, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/dortmund/"
+    },
+    {
+      "name": "Kirchenkreis Gelsenkirchen und Wattenscheid",
+      "address": "Pastoratstraße 10, 45879 Gelsenkirchen",
+      "lat": 51.513232,
+      "lng": 7.096419,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Heiner Montanus",
+      "searchterm": "Gelsenkirchen, Wattenscheid, Heiner Montanus, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/gelsenkirchen-und-wattenscheid/"
+    },
+    {
+      "name": "Kirchenkreis Gladbeck-Bottrop-Dorsten",
+      "address": "Humboldtstraße 15, 45964 Gladbeck",
+      "lat": 51.5749,
+      "lng": 6.9908,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Steffen Riesenberg",
+      "searchterm": "Gladbeck, Bottrop, Dorsten, Steffen Riesenberg, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/gladbeck-bottrop-dorsten/"
+    },
+    {
+      "name": "Kirchenkreis Gütersloh",
+      "address": "Moltkestraße 10, 33330 Gütersloh",
+      "lat": 51.574897,
+      "lng": 6.990769,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Frank Schneider",
+      "searchterm": "Gütersloh, Frank Schneider, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/guetersloh/"
+    },
+    {
+      "name": "Kirchenkreis Hagen",
+      "address": "Dödterstraße 10, 58095 Hagen",
+      "lat": 51.353873,
+      "lng": 7.479923,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Henning Waskönig",
+      "searchterm": "Hagen, Henning Waskönig, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/hagen/"
+    },
+    {
+      "name": "Kirchenkreis Halle",
+      "address": "Martin-Luther-Straße 11, 33790 Halle (Westfalen)",
+      "lat": 52.058939,
+      "lng": 8.363012,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Dr. André Heinrich",
+      "searchterm": "Halle, André Heinrich, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/halle/"
+    },
+    {
+      "name": "Kirchenkreis Hamm",
+      "address": "Martin-Luther-Str. 27b, 59065 Hamm",
+      "lat": 51.679542,
+      "lng": 7.815135,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Kerstin Goldbeck",
+      "searchterm": "Hamm, Kerstin Goldbeck, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/hamm/"
+    },
+    {
+      "name": "Kirchenkreis Hattingen-Witten",
+      "address": "Pferdebachstraße 39a ,58455 Witten",
+      "lat": 51.446771,
+      "lng": 7.345093,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Julia Holtzt",
+      "searchterm": "Hattingen, Witten, Julia Holtz, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/hattingen-witten/"
+    },
+    {
+      "name": "Kirchenkreis Herford",
+      "address": "Hansastraße 60, 32049 Herford",
+      "lat": 52.122314,
+      "lng": 8.671127,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Dr. Olaf Reinmuth",
+      "searchterm": "Herford, Olaf Reinmuth, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/herford/"
+    },
+    {
+      "name": "Kirchenkreis Herne",
+      "address": "Overwegstraße 31, 44625 Herne",
+      "lat": 51.529953,
+      "lng": 7.215348,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Claudia Reifenberger",
+      "searchterm": "Herne, Claudia Reifenberger, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/herne/"
+    },
+    {
+      "name": "Kirchenkreis Iserlohn",
+      "address": "Piepenstockstraße 21, 58636 Iserlohn",
+      "lat": 51.378819,
+      "lng": 7.703914,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Oliver Günther",
+      "searchterm": "Iserlohn, Oliver Günther, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/iserlohn/"
+    },
+    {
+      "name": "Kirchenkreis Lübbecke",
+      "address": "Geistwall 32, 32312 Lübbecke",
+      "lat": 52.301204,
+      "lng": 8.619918,
+      "orgtype": "Superintendentur",
+      "notes": "SuperintendentiPfr. Dr. Uwe Gryczan",
+      "searchterm": "Lübbecke, Uwe Gryczan, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/luebbecke/"
+    },
+    {
+      "name": "Kirchenkreis Lüdenscheid-Plettenberg",
+      "address": "Hohfuhrstraße 34, 58509 Lüdenscheid",
+      "lat": 51.213037,
+      "lng": 7.626127,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Dr. Christof Grote",
+      "searchterm": "Lüdenscheid, Plettenberg, Christof Grote, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/luedenscheid-plettenberg/"
+    },
+    {
+      "name": "Kirchenkreis Minden",
+      "address": "Rosentalstraße 6, 32423 Minden",
+      "lat": 52.294023,
+      "lng": 8.916860,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Michael Mertins",
+      "searchterm": "Minden, Michael Mertins, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/minden/"
+    },
+    {
+      "name": "Kirchenkreis Münster",
+      "address": "An der Apostelkirche 3, 48143 Münster",
+      "lat": 51.964997,
+      "lng": 7.627635,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Holger Erdmann",
+      "searchterm": "Münster, Holger Erdmann, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/muenster/"
+    },
+    {
+      "name": "Kirchenkreis Paderborn",
+      "address": "Klingenderstr. 13, 33100 Paderborn",
+      "lat": 51.727901,
+      "lng": 8.776579,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Volker Neuhoff",
+      "searchterm": "Paderborn, Volker Neuhoff, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/paderborn/"
+    },
+    {
+      "name": "Kirchenkreis Recklinghausen",
+      "address": "Limperstraße 15, 45657 Recklinghausen",
+      "lat": 51.616314,
+      "lng": 7.192730,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Saskia Karpenstein",
+      "searchterm": "Recklinghausen, Saskia Karpenstein, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/recklinghausen/"
+    },
+    {
+      "name": "Kirchenkreis Schwelm",
+      "address": "Potthoffstraße 40, 58332 Schwelm",
+      "lat": 51.286518,
+      "lng": 7.285825,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Andreas Schulte",
+      "searchterm": "Schwelm, Andreas Schulte, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/schwelm/"
+    },
+    {
+      "name": "Kirchenkreis Siegen-Wittgenstein",
+      "address": "Weidenauer Straße 118, 57076 Siegen",
+      "lat": 50.901211,
+      "lng": 8.024194,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Kerstin Grünert",
+      "searchterm": "Siegen, Wittgenstein, Kerstin Grünert, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/siegen-wittgenstein/"
+    },
+    {
+      "name": "Kirchenkreis Soest-Arnsberg",
+      "address": "Puppenstraße 3, 59494 Soest",
+      "lat": 51.571163,
+      "lng": 8.106200,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Dr. Manuel Schilling",
+      "searchterm": "Soest, Arnsberg, Manuel Schilling, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/soest-arnsberg/"
+    },
+    {
+      "name": "Kirchenkreis Steinfurt-Coesfeld-Borken",
+      "address": "Bohlenstiege 34, 48565 Steinfurt",
+      "lat": 52.144018,
+      "lng": 7.328632,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Susanne Falcke",
+      "searchterm": "Steinfurt, Coesfeld, Borken, Susanne Falcke, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/steinfurt-coesfeld-borken/"
+    },
+    {
+      "name": "Kirchenkreis Tecklenburg",
+      "address": "Sonnenwinkel 1, 49545 Tecklenburg",
+      "lat": 52.218433,
+      "lng": 7.821624,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. André Ost",
+      "searchterm": "Tecklenburg, André Ost, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/tecklenburg/"
+    },
+    {
+      "name": "Kirchenkreis Unna",
+      "address": "Mozartstraße 18-20, 59423 Unna",
+      "lat": 51.536750,
+      "lng": 7.678600,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendent Pfr. Dr. Karsten Schneider",
+      "searchterm": "Unna, Karsten Schneider, Superintendent",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/unna/"
+    },
+    {
+      "name": "Kirchenkreis Vlotho",
+      "address": "Lennéstraße 3, 32545 Bad Oeynhausen",
+      "lat": 52.204570,
+      "lng": 8.794743,
+      "orgtype": "Superintendentur",
+      "notes": "Superintendentin Pfr.'in Dorothea Goudefroy",
+      "searchterm": "Vlotho, Dorothea Goudefroy, Superintendentin",
+      "link": "https://www.evangelisch-in-westfalen.de/kirche/ueber-uns/kirchenkreise/vlotho/"
     }
   ]
 }
